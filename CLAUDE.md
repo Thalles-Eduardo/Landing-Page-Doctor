@@ -390,6 +390,8 @@ services/
 
 # Git & Commits
 
+Sempre após a implemetação de algum trecho de código, fazer commit no padrão: "NomeArquivoAlterado + ResumoPreveMudanca", sempre peça autorização para o commit.
+
 ## Conventional Commits
 
 ```bash

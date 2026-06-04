@@ -1,10 +1,11 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Award, GraduationCap, Stethoscope, Building } from 'lucide-react'
+import { Award, GraduationCap, Building } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -64,14 +65,16 @@ export default function AboutSection() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
             <div ref={imageRef} className="relative">
-              <div className="aspect-[4/5] bg-[#061428] rounded-3xl overflow-hidden border border-white/5 flex items-center justify-center">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-600/8 to-transparent" />
-                <div className="relative text-center">
-                  <div className="w-28 h-28 bg-blue-600/10 rounded-full flex items-center justify-center mx-auto mb-4 border border-blue-600/20">
-                    <Stethoscope className="text-blue-400" size={44} />
-                  </div>
-                  <p className="text-slate-700 text-sm">Dr. Carlos Mendes</p>
-                </div>
+              <div className="aspect-[4/5] bg-[#061428] rounded-3xl overflow-hidden border border-white/5 relative">
+                <Image
+                  src="/doctor.png"
+                  alt="Dr. Carlos Mendes — Ortopedista"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#020b18]/60 via-transparent to-transparent" />
               </div>
 
               <motion.div
@@ -114,7 +117,7 @@ export default function AboutSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight"
+              className="text-3x1 md:text-4xl lg:text-5xl font-bold text-white leading-tight"
             >
               Excelência em ortopedia com{' '}
               <span className="text-blue-400">atendimento humanizado</span>
