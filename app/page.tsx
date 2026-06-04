@@ -1,4 +1,5 @@
 import ScrollCanvas from '@/components/shared/ScrollCanvas'
+import FloatingParticles from '@/components/shared/FloatingParticles'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import HeroSection from '@/components/sections/HeroSection'
@@ -13,6 +14,9 @@ export default function Home() {
   return (
     <>
       <ScrollCanvas />
+      <div className="fixed inset-0 pointer-events-none" style={{ zIndex: 0 }} aria-hidden="true">
+        <FloatingParticles />
+      </div>
       <div className="relative" style={{ zIndex: 1 }}>
         <Header />
         <main>

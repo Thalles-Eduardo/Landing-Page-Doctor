@@ -104,7 +104,7 @@ export default function SpecialtiesSection() {
     <section
       ref={sectionRef}
       id="especialidades"
-      className="bg-[#030d1c]/97 relative lg:h-screen overflow-hidden"
+      className="bg-transparent relative lg:h-screen overflow-hidden"
     >
       <div className="relative z-10 pt-20 pb-10 lg:pt-24 lg:pb-0 text-center lg:text-left max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:flex lg:items-end lg:justify-between">

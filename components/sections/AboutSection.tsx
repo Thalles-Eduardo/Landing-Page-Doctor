@@ -53,7 +53,7 @@ export default function AboutSection() {
     <section
       ref={sectionRef}
       id="sobre"
-      className="py-24 md:py-36 bg-[#020b18]/97 overflow-hidden"
+      className="py-24 md:py-36 bg-transparent overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-16 lg:gap-24 items-center">

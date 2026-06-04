@@ -46,7 +46,7 @@ export default function StatsSection() {
   return (
     <section
       ref={sectionRef}
-      className="relative py-24 overflow-hidden bg-[#020b18]/97"
+      className="relative py-24 overflow-hidden bg-transparent"
       aria-label="Estatísticas"
     >
       {/* Background glow */}

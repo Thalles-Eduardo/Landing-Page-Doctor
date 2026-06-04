@@ -54,7 +54,7 @@ const cardVariants = {
 
 export default function ServicesSection() {
   return (
-    <section id="servicos" className="py-24 md:py-32 bg-[#020b18]/97">
+    <section id="servicos" className="py-24 md:py-32 bg-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <ScrollReveal>
