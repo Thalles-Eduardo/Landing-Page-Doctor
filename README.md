@@ -8,6 +8,8 @@ An immersive and premium landing page for Dr. Carlos Mendes, orthopedist and tra
 
 > A fully animated medical landing page experience with scroll storytelling, floating particles, character reveal animations, and a sophisticated dark theme.
 
+https://github.com/user-attachments/assets/09189d9b-965c-4038-acd3-0476e66536f2
+
 ---
 
 ## 🖼 Features
