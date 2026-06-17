@@ -67,7 +67,7 @@ export default function AboutSection() {
             <div ref={imageRef} className="relative">
               <div className="aspect-[4/5] bg-[#061428] rounded-3xl overflow-hidden border border-white/5 relative">
                 <Image
-                  src="/doctor.png"
+                  src="/doctor.webp"
                   alt="Dr. Carlos Mendes — Ortopedista"
                   fill
                   className="object-cover object-top"
